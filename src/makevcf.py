@@ -1,5 +1,5 @@
 import gzip
-dbsnp = gzip.open('../input/dbsnp/00-All.vcf.gz', 'rt')
+dbsnp = gzip.open('/projects/data/dbsnp/00-All.vcf.gz', 'rt')
 myancestry = open('../input/provider/ancestry/AncestryDNA.txt')
 
 variants = {}
